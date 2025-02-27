@@ -1,0 +1,37 @@
+.menu {
+    max-width: 500px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between; /* Ensures items are spread out */
+    width: 100%;
+    padding: 8px 0;
+    /* border-bottom: 1px dashed #ddd; Optional separator */
+  }
+  
+  .item-name {
+    font-weight: bold;
+    white-space: nowrap; /* Prevents wrapping */
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .spacer {
+    flex-grow: 1; /* Expands to take up available space */
+    min-width: 100px;
+  }
+  
+  .item-cost {
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .item-description {
+    text-align: left;
+    font-family: Hmrs-eaves, serif;
+    color: rgba(13, 43, 13, 0.6);
+  }

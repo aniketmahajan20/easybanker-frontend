@@ -1,0 +1,14 @@
+<div class="menu">
+    @for (menuItem of menuItems(); track menuItem.itemId) {
+      @if (menuItem.available == true){
+        <div class="menu-item">
+          <span class="item-name">{{ menuItem.itemName }}</span>
+          <span class="spacer"> </span>
+          <span class="item-cost">{{ menuItem.cost }} $</span>
+        </div>
+        <span class="item-description"><em>{{menuItem.itemDescription}}</em></span>
+        <br> <br>
+      }
+    }
+  </div>
+  
